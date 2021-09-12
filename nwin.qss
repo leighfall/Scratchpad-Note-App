@@ -1,0 +1,85 @@
+/*Main window wrapper*/
+QMainWindow {
+
+    background: #84A6D6;
+    min-width: 970px;
+    min-height: 800px;
+}
+
+/*Menu bar that has 'file', etc.*/
+QMenuBar {
+    background-color: #A15D98;
+    border-top: 1px solid #000000; 
+    border-bottom: 1px solid #000000;
+}
+
+QMenuBar::item:selected {
+    background-color: #E4CEE0;
+    border-top: 1px solid #000000;
+}
+
+QMenuBar::item:pressed {
+    background-color: #4382BB;
+}
+
+QMenu {
+    background: #DDF2F4;
+}
+
+QMenu::item:selected {
+    background: #4382BB;
+    color: #DDF2F4;
+}
+
+/*Tool Bar*/
+QToolBar {
+    background: #4382BB;
+    border-top: 0px; 
+    border-bottom: 1px solid #000000;
+}
+
+
+/*Tab Bar*/
+QTabBar::tab {
+    background: #E4CEE0;
+}
+
+QTabBar::tab:selected {
+    background: #DDF2F4;
+}
+
+QTabBar::tab:pressed {
+    background: #A15D98;
+}
+
+QTabWidget::pane {
+    border-top: 0px;
+    background-color: #DDF2F4;
+}
+
+
+/*Font Drop Down Menus*/
+
+QComboBox {
+    background: #DDF2F4;
+    border: 1px solid #000000;
+    margin: 2px;
+}
+
+QComboBox QAbstractItemView {
+    background: #DDF2F4;
+    selection-background-color: #4382BB;
+    border: 3px solid #DDF2F4;
+}
+
+/*
+Dark Blue: #4382BB
+
+Medium Blue: #84A6D6
+
+Light Blue: #DDF2F4
+
+Dark Pink: #A15D98
+
+Light Pink: #E4CEE0
+*/

@@ -1,0 +1,45 @@
+/* Search Bar */
+
+/*QPushButton {
+    background: #E4CEE0;
+    border: 1px solid #A15D98;
+    min-width: 50px;
+    min-height: 23px;
+}
+
+QPushButton:pressed {
+    background-color: #A15D98;
+}
+
+QPushButton:checked {
+    background-color: #A15D98;
+}
+
+QPushButton:flat {
+    border: none;
+}
+*/
+
+QTextEdit {
+    background: #DDF2F4;
+}
+
+QDialog {
+    background: #84A6D6;
+}
+
+QLabel {
+     font-size: 15px;
+}
+
+/*
+Dark Blue: #4382BB
+
+Medium Blue: #84A6D6
+
+Light Blue: #DDF2F4
+
+Dark Pink: #A15D98
+
+Light Pink: #E4CEE0
+*/

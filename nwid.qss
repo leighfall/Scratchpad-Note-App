@@ -1,0 +1,21 @@
+/*Edits the main window where text is typed*/
+QTextEdit {
+    background: #FFFFFF;
+    border: 1px solid #4382BB;
+    selection-background-color: #A15D98;
+    font: #000000;
+    min-width: 950px;
+    min-height: 670px;
+}
+
+/*
+Dark Blue: #4382BB
+
+Medium Blue: #84A6D6
+
+Light Blue: #DDF2F4
+
+Dark Pink: #A15D98
+
+Light Pink: #E4CEE0
+*/
